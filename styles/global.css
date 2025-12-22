@@ -35,8 +35,15 @@ img {
 
 button {
   font: inherit;
+  background: none;
+  border: 0;
+  text-align: center;
 }
 
 address {
   font-style: normal;
+}
+
+.lots h2 {
+  font-size: 40px;
 }
