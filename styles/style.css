@@ -27,6 +27,10 @@
     text-underline-offset: 4px;
 }
 
+.header__link_active {
+    text-decoration: none;
+}
+
 .header__logo {
   display: block;
   width: 135px;
@@ -257,4 +261,42 @@
     font-size: 20px;
     line-height: 24px;
     padding-right: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 180px;
+    padding: 0 50px 82px;
+}
+
+.footer__address {
+    justify-self: flex-start;
+    /*padding: 0 50px 82px;*/
+    text-wrap-mode:wrap;
+}
+
+.footer__menu-list {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer__social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 48px;
+}
+
+.footer__social-list-item {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__social-link {
+    width: 48px;
+    height: 48px;
 }
